@@ -1,0 +1,14 @@
+a=1
+print(a)
+b=2
+print(b)
+c=3
+print(c)
+a=1.2
+print(a)
+d="Nupur"
+print(d)
+e=None
+print(e)
+f=9
+print(f)
