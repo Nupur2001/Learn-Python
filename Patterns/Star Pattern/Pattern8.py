@@ -9,3 +9,15 @@ for i in range(0,n):
         print("*",end="")
     print()
 
+# Output
+Enter the number of rows: 5
+
+*
+**
+***
+****
+*****
+****
+***
+**
+*
