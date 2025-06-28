@@ -7,9 +7,9 @@ for i in range(n):
     print()
 
 # Output
-Enter the number of rows: 5
+Enter the number of rows: 4
     *
    ***
   *****
  *******
-*********
+
