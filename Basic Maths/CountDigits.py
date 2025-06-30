@@ -13,18 +13,19 @@ print("Number of digits in the number is: ",countDigit)
 # It is more efficient for large numbers compared to the first method.
 from math import log10
 m=int(input("Enter a number: "))
-    /* The expression (int)(log10(n)+1)
-    calculates the number of digits in 'n'
-    and casts it to an integer.
+
+    # The expression (int)(log10(n)+1)
+    # calculates the number of digits in 'n'
+    # and casts it to an integer.
     
-    Adding 1 to the result accounts
-    for the case when 'n' is a power of 10,
-    ensuring that the count is correct.
+    # Adding 1 to the result accounts
+    # for the case when 'n' is a power of 10,
+    # ensuring that the count is correct.
    
-    Finally, the result is cast
-    to an integer to ensure it is rounded
-    down to the nearest whole number.
-    */
+    # Finally, the result is cast
+    # to an integer to ensure it is rounded
+    # down to the nearest whole number.
+    
 countDigitNum=int(log10(m))+1
 print("Number of digits in the number is: ",countDigitNum)    
 
