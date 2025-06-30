@@ -15,3 +15,5 @@ from math import log10
 m=int(input("Enter a number: "))
 countDigitNum=int(log10(m))+1
 print("Number of digits in the number is: ",countDigitNum)    
+
+Time Complexity: O(log10(n))
