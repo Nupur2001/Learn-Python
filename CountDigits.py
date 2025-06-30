@@ -4,3 +4,7 @@ while num>0:
     num=num//10
     countDigit+=1
 print("Number of digits in the number is: ",countDigit)
+
+# Output
+Enter a number: 24156
+Number of digits in the number is:  5
