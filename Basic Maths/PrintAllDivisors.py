@@ -9,7 +9,7 @@ print("The divisors of", n, "are:", ", ".join(divisors))
 Enter a number: 36
 The divisors of 36 are: 1, 2, 3, 4, 6, 9, 12, 18, 36
 
-from math import isqrt
+from math import isqrt   # Use isqrt() to get integer square root safely
 
 
 num=int(input("Enter a number: "))
