@@ -1,5 +1,19 @@
+
+# ----------------------------# 
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+
+# Time Complexity Calculation:
+# 1. Loop from 1 to n            → O(n)
+# 2. Modulo operation inside loop → O(1) per iteration
+# 3. Append to list              → O(1) per iteration
+# 4. Join all divisors into string → O(n) in worst case
+# => Total Time: O(n)
+
+# Space Complexity:
+# - List may hold up to n elements (in worst case) → O(n)
+# => Total Space: O(n)
+# ----------------------------
 
 n=int(input("Enter a number: "))
 divisors=[]
