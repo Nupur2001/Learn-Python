@@ -27,8 +27,22 @@ Enter a number: 36
 The divisors of 36 are: 1, 2, 3, 4, 6, 9, 12, 18, 36
 
 from math import isqrt   # Use isqrt() to get integer square root safely
+# ----------------------------
 # Time Complexity: O(√n log √n)
 # Space Complexity: O(√n)
+# Time Complexity Calculation:
+# 1. Loop from 1 to √n              → O(√n)
+# 2. Modulo and integer division    → O(1) each
+# 3. Append up to 2√n elements      → O(1) per append
+# 4. Sorting list of ≤2√n elements  → O(√n log √n)
+# 5. Joining list of strings        → O(√n)
+# => Total Time: O(√n log √n)
+
+# Space Complexity:
+# - Max 2√n elements in list        → O(√n)
+# - List comprehension and join use same elements
+# => Total Space: O(√n)
+# ----------------------------
 
 num=int(input("Enter a number: "))
 divisors=[]
