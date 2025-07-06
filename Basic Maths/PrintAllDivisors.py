@@ -1,3 +1,6 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 n=int(input("Enter a number: "))
 divisors=[]
 for i in range(1,n+1):
@@ -10,7 +13,8 @@ Enter a number: 36
 The divisors of 36 are: 1, 2, 3, 4, 6, 9, 12, 18, 36
 
 from math import isqrt   # Use isqrt() to get integer square root safely
-
+# Time Complexity: O(√n log √n)
+# Space Complexity: O(√n)
 
 num=int(input("Enter a number: "))
 divisors=[]
